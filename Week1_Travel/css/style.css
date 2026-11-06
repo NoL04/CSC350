@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card {
+  width: 90%;
+  max-width: 500px;
+  padding: 32px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  text-align: center;
+}
+
+.userInput {
+  display: flex;
+  gap: 8px;
+}
+
+input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  background: #1a76e7;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#clearButton {
+  margin-top: 16px;
+  background: #d83732;
+}
+
+#message {
+  color: #d83732;
+  min-height: 20px;
+}
+
+ol {
+  text-align: left;
+  font-size: 18px;
+}
